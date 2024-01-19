@@ -1,0 +1,1 @@
+print('Muhit Love Adele')
