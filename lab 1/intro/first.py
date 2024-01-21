@@ -1,1 +1,1 @@
-print('Muhit Love Adele')
+print("Hello, World!")
