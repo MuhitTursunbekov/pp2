@@ -1,1 +1,2 @@
 print(bool("abc"))
+#true
