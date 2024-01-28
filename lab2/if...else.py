@@ -106,11 +106,11 @@ else:
 
 a = 50
 b = 10
- if a==b:
+if a==b:
   print("1")
- elif a >b:
+elif a >b:
   print("2")
- else:
+else:
   print("3")
 
 

@@ -212,11 +212,11 @@ for x in thisdict:
   print(x)
 
 
-  for x in thisdict:
+for x in thisdict:
   print(thisdict[x])
 
 
-  for x in thisdict.values():
+for x in thisdict.values():
   print(x)
 
 
@@ -224,7 +224,7 @@ for x in thisdict.keys():
   print(x)
 
 
-  for x, y in thisdict.items():
+for x, y in thisdict.items():
   print(x, y)
    
 
