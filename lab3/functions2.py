@@ -115,3 +115,6 @@ def calcAverageScore():
 def sameCategoryAverageScore(category):
     listSameCategory = returnSameCategory(category)
     return calcAverageScore(listSameCategory)
+
+print(isMovieCool('We Two'))
+getCoolMovies()
