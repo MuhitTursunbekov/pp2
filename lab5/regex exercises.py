@@ -151,3 +151,15 @@ def insert(camel_case_str):
 camel_case_input = input("input a string in camel case ")
 spaced_output = insert(camel_case_input)
 print(spaced_output)
+
+
+# Exercise 10 
+import re
+
+def camel_to_snake(camel_case_str):
+    snake_case_str = re.sub('([a-z0-9])([A-Z])', r'\1_\2', camel_case_str)
+    return snake_case_str.lower()
+
+input_str = input("Enter a camel case string: ")
+snake_case_output = camel_to_snake(input_str)
+print("Converted snake case string:", snake_case_output)
