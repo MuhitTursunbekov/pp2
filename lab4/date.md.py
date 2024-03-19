@@ -39,13 +39,9 @@ print(printTomorrow())
 #3
 import datetime
 
-def delMicroSec(x):
-    return x.replace(microsecond = 0)
+current_datetime = datetime.datetime.now(microseconds = 0)
 
-current_datetime = datetime.datetime.now()
-new_time = delMicroSec(current_datetime)
-
-print(new_time)
+print(current_datetime)
 
 
 #4
