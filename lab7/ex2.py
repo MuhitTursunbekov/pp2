@@ -22,7 +22,7 @@ current_directory = os.path.dirname(__file__)
 
 # Относительные пути к аудиофайлам
 songs = [
-    os.path.join(current_directory, r'C:\Users\User\OneDrive\Рабочий стол\pp2\Adele – Rolling in the Deep.mp3'),
+    os.path.join(current_directory, r'C:\Users\User\OneDrive\Рабочий стол\pp2\lab7\Adele – Rolling in the Deep.mp3'),
     os.path.join(current_directory, r'C:\Users\User\OneDrive\Рабочий стол\pp2\Adele – Skyfall.mp3'),
     os.path.join(current_directory, r'C:\Users\User\OneDrive\Рабочий стол\pp2\tears for fears-everybody wants to rule the world.mp3')
 ]
